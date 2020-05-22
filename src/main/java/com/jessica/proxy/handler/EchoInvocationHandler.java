@@ -8,6 +8,9 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 import java.util.stream.Stream;
 
+/**
+ *被代理的接口的方法执行逻辑
+ */
 public class EchoInvocationHandler implements InvocationHandler {
     private static final Logger LOGGER = LoggerFactory.getLogger(EchoInvocationHandler.class);
 

@@ -4,6 +4,9 @@ import com.jessica.proxy.annotation.Task;
 
 import java.util.List;
 
+/**
+ * 被代理的接口
+ */
 public interface TestApi {
     /**
      *
